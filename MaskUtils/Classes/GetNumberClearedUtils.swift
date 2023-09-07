@@ -9,7 +9,7 @@ import Foundation
 
 
 // тесты в GetNumberClearedTests
-func getNumberCleared(
+public func getNumberCleared(
         amount: String?,
         isUserEntered: Bool = false,
         isPhoneNumber: Bool = false
@@ -23,7 +23,7 @@ func getNumberCleared(
 }
 
 // тесты в GetNumberClearedWithMaxSizeTests
-func getNumberClearedWithMaxSymbol(
+public func getNumberClearedWithMaxSymbol(
         amount: String?,
         isUserEntered: Bool = false,
         isPhoneNumber: Bool = false,

@@ -7,12 +7,12 @@
 
 import Foundation
 
-class MaskUtils {
+public class MaskUtils {
     var pattern: String = ""
     var isDateExpiredMask: Bool = false
     var patternArr: [String] = []
 
-    func getNextCursorPosition(newPosition: Int) -> Int {
+    public func getNextCursorPosition(newPosition: Int) -> Int {
         let result = getCharOnIndex(text: pattern, index: newPosition)
 
         if (result != "A") {
@@ -28,7 +28,7 @@ class MaskUtils {
         }
     }
 
-    func format(
+    public func format(
             text: String,
             optionForTest: Bool = false
     ) -> String {

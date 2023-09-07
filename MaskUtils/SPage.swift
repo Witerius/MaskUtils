@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct SuccessPage: View {
+public struct SuccessPage: View {
 
     var body: some View {
         ZStack {
