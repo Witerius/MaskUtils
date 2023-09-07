@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-public struct SuccessPage: View {
+public struct ErrorPage: View {
 
     var body: some View {
         ZStack {
@@ -26,7 +26,7 @@ public struct SuccessPage: View {
                             .frame(width: iconSize, height: iconSize)
                             .padding(.bottom, 37)
 
-                    Text(paySuccess())
+                    Text("error")
 //                            .textStyleH3()
                             .frame(alignment: .center)
 
