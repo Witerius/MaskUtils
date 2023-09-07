@@ -10,6 +10,8 @@ import SwiftUI
 
 public struct SuccessPage: View {
 
+    public init() {}
+
     public var body: some View {
         ZStack {
 //            ColorsSdk.gray30
