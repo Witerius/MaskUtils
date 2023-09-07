@@ -10,7 +10,7 @@ import SwiftUI
 
 public struct ErrorPage: View {
 
-    var body: some View {
+    public var body: some View {
         ZStack {
 //            ColorsSdk.gray30
 //            ColorsSdk.bgBlock
