@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MaskUtils_Tests' do
+  pod 'MaskUtils', :path => '../'
+  
+  
+end
