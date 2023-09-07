@@ -12,8 +12,8 @@ public struct SuccessPage: View {
 
     var body: some View {
         ZStack {
-            ColorsSdk.gray30
-            ColorsSdk.bgBlock
+//            ColorsSdk.gray30
+//            ColorsSdk.bgBlock
 
             GeometryReader { metrics in
                 let iconSize = metrics.size.width * 0.60
@@ -38,15 +38,6 @@ public struct SuccessPage: View {
                 }
             }
         }
-                .overlay(ViewButton(
-                        title: "Nекст кнопки",
-                        actionClick: {
-                            navigateCoordinator.backToApp()
-                        }
-                )
-                        .frame(maxWidth: .infinity)
-                        .padding(.bottom, 24)
-                        .padding(.horizontal, 16), alignment: .bottom)
     }
 }
 
