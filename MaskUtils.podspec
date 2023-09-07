@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaskUtils'
-  s.version          = '0.1.0'
+  s.version          = '0.1'
   s.summary          = 'A short description of MaskUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Mikhail/MaskUtils'
+  s.homepage         = 'https://github.com/Witerius/MaskUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mikhail' => 'mikhail.belikov@airbapay.kz' }
-  s.source           = { :git => 'https://github.com/Mikhail/MaskUtils.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Witerius/MaskUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'MaskUtils/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'MaskUtils' => ['MaskUtils/Assets/*.png']
+  #   'MaskUtils' => ['MaskUtils/Assets/*']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
