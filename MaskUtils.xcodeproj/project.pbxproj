@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC4A68442AAB14F300F2A2CB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A68432AAB14F300F2A2CB /* Montserrat-Bold.ttf */; };
-		DC4A68462AAB150300F2A2CB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A68452AAB150300F2A2CB /* Montserrat-Regular.ttf */; };
-		DC4A68482AAB151100F2A2CB /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A68472AAB151100F2A2CB /* Montserrat-SemiBold.ttf */; };
 		DC4A684A2AAB624400F2A2CB /* papapa.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4A68492AAB624400F2A2CB /* papapa.png */; };
 		DC4A684C2AAB625B00F2A2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4A684B2AAB625B00F2A2CB /* Assets.xcassets */; };
 		DC4A684E2AAB627700F2A2CB /* Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A684D2AAB627700F2A2CB /* Bold.ttf */; };
@@ -23,13 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC2335292AAAE9620028F5B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC7C07F72AA9CFC500C705FD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC7C084F2AA9D7FF00C705FD;
-			remoteInfo = Bundles;
-		};
 		DC7C080A2AA9CFC600C705FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC7C07F72AA9CFC500C705FD /* Project object */;
@@ -40,14 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC23352C2AAAE9B30028F5B6 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		DC23352E2AAAE9B30028F5B6 /* Pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pay.png; sourceTree = "<group>"; };
-		DC23352F2AAAE9B30028F5B6 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		DC2335302AAAE9B30028F5B6 /* Pay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pay@3x.png"; sourceTree = "<group>"; };
-		DC2335312AAAE9B30028F5B6 /* Pay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pay@2x.png"; sourceTree = "<group>"; };
-		DC4A68432AAB14F300F2A2CB /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		DC4A68452AAB150300F2A2CB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		DC4A68472AAB151100F2A2CB /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		DC4A68492AAB624400F2A2CB /* papapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = papapa.png; path = MaskUtils/Assets/images/papapa.png; sourceTree = "<group>"; };
 		DC4A684B2AAB625B00F2A2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MaskUtils/Assets/images/Assets.xcassets; sourceTree = "<group>"; };
 		DC4A684D2AAB627700F2A2CB /* Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bold.ttf; path = MaskUtils/Assets/fonts/Bold.ttf; sourceTree = "<group>"; };
@@ -88,45 +70,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC23352B2AAAE9B30028F5B6 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				DC23352C2AAAE9B30028F5B6 /* .gitkeep */,
-				DC23352D2AAAE9B30028F5B6 /* icPaySuccess.imageset */,
-			);
-			name = Assets;
-			path = MaskUtils/Assets;
-			sourceTree = "<group>";
-		};
-		DC23352D2AAAE9B30028F5B6 /* icPaySuccess.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				DC23352E2AAAE9B30028F5B6 /* Pay.png */,
-				DC23352F2AAAE9B30028F5B6 /* Contents.json */,
-				DC2335302AAAE9B30028F5B6 /* Pay@3x.png */,
-				DC2335312AAAE9B30028F5B6 /* Pay@2x.png */,
-			);
-			path = icPaySuccess.imageset;
-			sourceTree = "<group>";
-		};
-		DC4A68422AAB14D700F2A2CB /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				DC4A68472AAB151100F2A2CB /* Montserrat-SemiBold.ttf */,
-				DC4A68452AAB150300F2A2CB /* Montserrat-Regular.ttf */,
-				DC4A68432AAB14F300F2A2CB /* Montserrat-Bold.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
 		DC7C07F62AA9CFC500C705FD = {
 			isa = PBXGroup;
 			children = (
 				DC4A684D2AAB627700F2A2CB /* Bold.ttf */,
 				DC4A684B2AAB625B00F2A2CB /* Assets.xcassets */,
 				DC4A68492AAB624400F2A2CB /* papapa.png */,
-				DC4A68422AAB14D700F2A2CB /* Fonts */,
-				DC23352B2AAAE9B30028F5B6 /* Assets */,
 				DC7C08022AA9CFC500C705FD /* MaskUtils */,
 				DC7C080C2AA9CFC600C705FD /* MaskUtilsTests */,
 				DC7C08012AA9CFC500C705FD /* Products */,
@@ -189,7 +138,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DC23352A2AAAE9620028F5B6 /* PBXTargetDependency */,
 			);
 			name = MaskUtils;
 			productName = MaskUtils;
@@ -281,9 +229,6 @@
 				DC4A684E2AAB627700F2A2CB /* Bold.ttf in Resources */,
 				DC4A684C2AAB625B00F2A2CB /* Assets.xcassets in Resources */,
 				DC4A684A2AAB624400F2A2CB /* papapa.png in Resources */,
-				DC4A68482AAB151100F2A2CB /* Montserrat-SemiBold.ttf in Resources */,
-				DC4A68462AAB150300F2A2CB /* Montserrat-Regular.ttf in Resources */,
-				DC4A68442AAB14F300F2A2CB /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,11 +278,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC23352A2AAAE9620028F5B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DC7C084F2AA9D7FF00C705FD /* Bundles */;
-			targetProxy = DC2335292AAAE9620028F5B6 /* PBXContainerItemProxy */;
-		};
 		DC7C080B2AA9CFC600C705FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DC7C07FF2AA9CFC500C705FD /* MaskUtils */;
