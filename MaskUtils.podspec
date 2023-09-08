@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'MaskUtils/Classes/**/*'
   
   s.resource_bundles = {
-    'MaskUtils' => ['MaskUtils/Assets/**/*.{imageset}', 'MaskUtils/Assets/**/*.{ttf}']
+    'MaskUtils' => ['MaskUtils/Assets/**/*.xcassets', 'MaskUtils/Assets/**/*.{ttf}']
 //    'MaskUtils' => ['MaskUtils/Assets/*.png', 'MaskUtils/Fonts/*.ttf']
   }
 
