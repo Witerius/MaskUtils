@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MaskUtils/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MaskUtils' => ['MaskUtils/Assets/*']
-  # }
+  s.resource_bundles = {
+    'MaskUtils' => ['MaskUtils/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
