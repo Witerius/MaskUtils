@@ -1,0 +1,22 @@
+{
+  "name": "MaskUtils",
+  "version": "0.1.0",
+  "summary": "A short description of MaskUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mikhail/MaskUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mikhail": "mikhail.belikov@airbapay.kz"
+  },
+  "source": {
+    "git": "https://github.com/Mikhail/MaskUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MaskUtils/Classes/**/*"
+}
