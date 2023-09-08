@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaskUtils'
-  s.version          = '0.6'
+  s.version          = '0.7'
   s.summary          = 'MaskUtils - format text by mask. Example "+7 (AAA) AAA AA AA" or "AA/AA'
 
 # This description is used to generate tags and improve search results.
