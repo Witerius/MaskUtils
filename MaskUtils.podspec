@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #  'MaskUtils' => ['MaskUtils/Assets/**/*.xcassets', 'MaskUtils/Assets/**/*.ttf', 'MaskUtils/Assets/**/*.png']
   # }
 
-  s.resources = "MaskUtils/Assets/*.xcassets"
+  s.resources = "MaskUtils/Assets/**/*.xcassets"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
