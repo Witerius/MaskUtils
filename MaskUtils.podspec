@@ -34,7 +34,6 @@ TODO: Add long description of the pod here.
   
   s.resource_bundles = {
     'MaskUtils' => ['MaskUtils/Assets/**/*.xcassets', 'MaskUtils/Assets/**/*.ttf', 'MaskUtils/Assets/**/*.png']
-//    'MaskUtils' => ['MaskUtils/Assets/*.png', 'MaskUtils/Fonts/*.ttf']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
