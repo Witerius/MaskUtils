@@ -10,6 +10,9 @@
 		DC4A68442AAB14F300F2A2CB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A68432AAB14F300F2A2CB /* Montserrat-Bold.ttf */; };
 		DC4A68462AAB150300F2A2CB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A68452AAB150300F2A2CB /* Montserrat-Regular.ttf */; };
 		DC4A68482AAB151100F2A2CB /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A68472AAB151100F2A2CB /* Montserrat-SemiBold.ttf */; };
+		DC4A684A2AAB624400F2A2CB /* papapa.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4A68492AAB624400F2A2CB /* papapa.png */; };
+		DC4A684C2AAB625B00F2A2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4A684B2AAB625B00F2A2CB /* Assets.xcassets */; };
+		DC4A684E2AAB627700F2A2CB /* Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC4A684D2AAB627700F2A2CB /* Bold.ttf */; };
 		DC7C08092AA9CFC600C705FD /* MaskUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C08002AA9CFC500C705FD /* MaskUtils.framework */; };
 		DC7C080E2AA9CFC600C705FD /* MaskUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C080D2AA9CFC600C705FD /* MaskUtilsTests.swift */; };
 		DC7C080F2AA9CFC600C705FD /* MaskUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7C08032AA9CFC500C705FD /* MaskUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +48,9 @@
 		DC4A68432AAB14F300F2A2CB /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		DC4A68452AAB150300F2A2CB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		DC4A68472AAB151100F2A2CB /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		DC4A68492AAB624400F2A2CB /* papapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = papapa.png; path = MaskUtils/Assets/images/papapa.png; sourceTree = "<group>"; };
+		DC4A684B2AAB625B00F2A2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MaskUtils/Assets/images/Assets.xcassets; sourceTree = "<group>"; };
+		DC4A684D2AAB627700F2A2CB /* Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bold.ttf; path = MaskUtils/Assets/fonts/Bold.ttf; sourceTree = "<group>"; };
 		DC7C08002AA9CFC500C705FD /* MaskUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaskUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7C08032AA9CFC500C705FD /* MaskUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskUtils.h; sourceTree = "<group>"; };
 		DC7C08082AA9CFC600C705FD /* MaskUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +122,9 @@
 		DC7C07F62AA9CFC500C705FD = {
 			isa = PBXGroup;
 			children = (
+				DC4A684D2AAB627700F2A2CB /* Bold.ttf */,
+				DC4A684B2AAB625B00F2A2CB /* Assets.xcassets */,
+				DC4A68492AAB624400F2A2CB /* papapa.png */,
 				DC4A68422AAB14D700F2A2CB /* Fonts */,
 				DC23352B2AAAE9B30028F5B6 /* Assets */,
 				DC7C08022AA9CFC500C705FD /* MaskUtils */,
@@ -269,6 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4A684E2AAB627700F2A2CB /* Bold.ttf in Resources */,
+				DC4A684C2AAB625B00F2A2CB /* Assets.xcassets in Resources */,
+				DC4A684A2AAB624400F2A2CB /* papapa.png in Resources */,
 				DC4A68482AAB151100F2A2CB /* Montserrat-SemiBold.ttf in Resources */,
 				DC4A68462AAB150300F2A2CB /* Montserrat-Regular.ttf in Resources */,
 				DC4A68442AAB14F300F2A2CB /* Montserrat-Bold.ttf in Resources */,
