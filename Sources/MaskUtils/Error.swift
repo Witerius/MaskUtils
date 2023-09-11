@@ -10,6 +10,8 @@ import SwiftUI
 
 public struct ErrorPage: View {
 
+    public static let yourPackageBundle = Bundle.module
+
     public init() {}
     public var body: some View {
         ZStack {

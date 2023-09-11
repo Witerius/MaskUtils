@@ -42,6 +42,10 @@ let package = Package(
             ),
             .testTarget(
                     name: "MaskUtilsTests",
-                    dependencies: ["MaskUtils"]),
+                    dependencies: ["MaskUtils"],
+                    resources: [
+                        .process("Resources")
+                    ]
+            ),
         ]
 )
