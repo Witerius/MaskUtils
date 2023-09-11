@@ -12,8 +12,7 @@ let package = Package(
             // Products define the executables and libraries a package produces, making them visible to other packages.
             .library(
                     name: "MaskUtils",
-                    targets: ["MaskUtils"],
-                    resources: [.process("Resources")]),
+                    targets: ["MaskUtils"]),
         ],
         dependencies: [
             // name - это название пакета(пункт 1), здесь нельзя указать кастомное название, необязательный параметр
