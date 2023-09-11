@@ -24,7 +24,7 @@ public struct ErrorPage: View {
                 VStack {
                     Spacer().frame(height: metrics.size.height * 0.20)
 
-                    Image("icPaySuccess", bundle: makUtilsBundle)
+                    Image("icPaySuccess", bundle: ErrorPage.makUtilsBundle)
                             .resizable()
                             .frame(width: iconSize, height: iconSize)
                             .padding(.bottom, 37)
