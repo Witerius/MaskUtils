@@ -10,7 +10,7 @@ import SwiftUI
 
 public struct ErrorPage: View {
 
-    public static let yourPackageBundle = Bundle.module
+    public static let makUtilsBundle = Bundle.module
 
     public init() {}
     public var body: some View {
@@ -24,7 +24,7 @@ public struct ErrorPage: View {
                 VStack {
                     Spacer().frame(height: metrics.size.height * 0.20)
 
-                    Image("icPaySuccess")
+                    Image("icPaySuccess", bundle: makUtilsBundle)
                             .resizable()
                             .frame(width: iconSize, height: iconSize)
                             .padding(.bottom, 37)
